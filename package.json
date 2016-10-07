@@ -1,0 +1,33 @@
+{
+  "name": "express-mocha-chai-tutorial",
+  "version": "1.0.0",
+  "description": "Testing Express.js with Mocha and Chai",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/*js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kahwooi/express-mocha-chai-tutorial.git"
+  },
+  "keywords": [
+    "express",
+    "mocha",
+    "chai",
+    "supertest"
+  ],
+  "author": "Kelvin Tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kahwooi/express-mocha-chai-tutorial/issues"
+  },
+  "homepage": "https://github.com/kahwooi/express-mocha-chai-tutorial#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "supertest": "^2.0.0"
+  }
+}
